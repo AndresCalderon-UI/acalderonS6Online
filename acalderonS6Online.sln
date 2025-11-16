@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "acalderonS6Online", "acalderonS6Online.csproj", "{86AC1D7D-EE13-4725-8723-3CC9E2900B2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86AC1D7D-EE13-4725-8723-3CC9E2900B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AC1D7D-EE13-4725-8723-3CC9E2900B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AC1D7D-EE13-4725-8723-3CC9E2900B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AC1D7D-EE13-4725-8723-3CC9E2900B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2820C066-45BD-4A2D-AD2D-08B7C17A326C}
+	EndGlobalSection
+EndGlobal
