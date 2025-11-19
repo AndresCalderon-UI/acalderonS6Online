@@ -27,7 +27,7 @@
                 <Label Text="EDAD" Grid.Column="3" FontAttributes="Bold" />
             </Grid>
 
-            <ListView x:Name="listaEstudiantes">
+            <ListView x:Name="listaEstudiantes" ItemSelected="listaEstudiantes_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -39,16 +39,18 @@
                                     <ColumnDefinition />
                                 </Grid.ColumnDefinitions>
 
-                                <Label Text="{Binding codigo}" Grid.Column="0" FontSize="Small" />
-                                <Label Text="{Binding nombre}" Grid.Column="1" FontSize="Small" />
-                                <Label Text="{Binding apellido}" Grid.Column="2" FontSize="Small" />
-                                <Label Text="{Binding edad}" Grid.Column="3" FontSize="Small" />
+                                <Label Text="{Binding codigo}" Grid.Column="0"/>
+                                <Label Text="{Binding nombre}" Grid.Column="1"/>
+                                <Label Text="{Binding apellido}" Grid.Column="2"/>
+                                <Label Text="{Binding edad}" Grid.Column="3"/>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-
+            <Button x:Name="btnAgregar"
+                    Text="Agregar Estudiante"
+                    Clicked="btnAgregar_Clicked"/>
         </StackLayout>
     </VerticalStackLayout>
 </ContentPage>
